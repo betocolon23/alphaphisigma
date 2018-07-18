@@ -11,17 +11,17 @@
     <title>Alpha Phi Sigma</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="{{url_for('static', filename='css/agency.css')}}" rel="stylesheet">
 
   </head>
 
@@ -123,7 +123,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/salon.jpg" alt="">
+              <img class="img-fluid" src="{{url_for('static', filename='img/salon.jpg')}}" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Salon de actividades</h4>
@@ -137,7 +137,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/piscinaofi.jpg" alt="">
+                  <img class="img-fluid" src="{{url_for('static', filename='img/piscinaofi.jpg')}}" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Piscina</h4>
@@ -151,7 +151,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/picnic1.jpg" alt="">
+              <img class="img-fluid" src="{{url_for('static', filename='img/picnic1.jpg')}}" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Area de Picnic</h4>
@@ -165,7 +165,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/parking1.jpg" alt="">
+              <img class="img-fluid" src="{{url_for('static', filename='img/parking1.jpg')}}" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Estacionamiento</h4>
@@ -179,7 +179,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/gazeboBBQ.jpg" alt="">
+              <img class="img-fluid" src="{{url_for('static', filename='img/gazeboBBQ.jpg')}}" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Gazebo BBQ</h4>
@@ -193,7 +193,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/cancha1.jpg" alt="">
+              <img class="img-fluid" src="{{url_for('static', filename='img/cancha1.jpg')}}" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Cancha</h4>
@@ -435,7 +435,7 @@
                   <!-- Project Details Go Here -->
                   <h2>Salon de Actividades</h2>
                   <p class="item-intro text-muted">Salon de actividades para grupos grandes!</p>
-                  <img class="img-fluid d-block mx-auto" src="img/salon2.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="{{url_for('static', filename='img/salon2.jpg')}}" alt="">
                   <p>Salón de actividades para 120 personas en donde incluye las mesas y las sillas!<br>
                    Salón para Bodas, Seminarios, Cumpleaños, Actividad Social, Graduaciones <br>
                    con Aire Acondicionado e Internet!
@@ -472,7 +472,7 @@
                   <!-- Project Details Go Here -->
                   <h2>Piscina</h2>
                   <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="img/piscina2.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="{{url_for('static', filename='img/piscina2.jpg')}}" alt="">
                   <p>Amplia piscina para celebrar cumple años o pasadia!</p>
                   <ul class="list-inline">
                     <li>Precio:</li>
@@ -506,7 +506,7 @@
                   <!-- Project Details Go Here -->
                   <h2>Area de Picnic</h2>
                   <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="img/picnic1.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="{{url_for('static', filename='img/picnic1.jpg')}}" alt="">
                   <p>Amplio patio para picnic!</p>
                   <ul class="list-inline">
                     <li>Precio:</li>
@@ -540,7 +540,7 @@
                   <!-- Project Details Go Here -->
                   <h2>Estacionamiento</h2>
                   <p class="item-intro text-muted">Amplio estacionamiento</p>
-                  <img class="img-fluid d-block mx-auto" src="img/parking1.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="{{url_for('static', filename='img/parking1.jpg')}}" alt="">
                   <p>Espacioso estacionamiento para las actividades!</p>
                   <ul class="list-inline">
                     <li>(capacidad)</li>
@@ -574,7 +574,7 @@
                   <!-- Project Details Go Here -->
                   <h2>Gazebo BBQ</h2>
                   <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="img/gazeboBBQ.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="{{url_for('static', filename='img/gazeboBBQ.jpg')}}" alt="">
                   <p>Gazebo de BBQ en el área de la piscina!</p>
                   <ul class="list-inline">
                     <li>Precio:</li>
@@ -608,7 +608,7 @@
                   <!-- Project Details Go Here -->
                   <h2>Cancha de Baloncesto</h2>
                   <p class="item-intro text-muted"></p>
-                  <img class="img-fluid d-block mx-auto" src="img/cancha1.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="{{url_for('static', filename='img/cancha1.jpg')}}" alt="">
                   <p>Doble cancha de Baloncesto para actividades!</p>
                   <ul class="list-inline">
                     <li>Precio:</li>
@@ -627,19 +627,19 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{url_for('static', filename='vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{url_for('static', filename='vendor/popper/popper.min.js')}}"></script>
+    <script src="{{url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js')}}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="{{url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js')}}"></script>
 
     <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="{{url_for('static', filename='js/jqBootstrapValidation.js')}}"></script>
+    <script src="{{url_for('static', filename='js/contact_me.js')}}"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+    <script src="{{url_for('static', filename='js/agency.min.js')}}"></script>
 
   </body>
 
